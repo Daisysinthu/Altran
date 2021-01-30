@@ -1,7 +1,7 @@
 #!/bin/bash
 #!/usr/bin/expect -f 
 sum=0
-passwd="embibe"
+passwd="altran"
 if test "$#" -gt 24; then
     echo "Illegal number of parameters"
 else
