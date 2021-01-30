@@ -1,0 +1,6 @@
+---
+- name: Copy files
+  hosts: jenkins_servers
+  become: true
+  roles:
+    - jenkins
