@@ -1,5 +1,4 @@
-#!/bin/bash
-#!/usr/bin/expect -f 
+#!/bin/bash 
 sum=0
 passwd="altran"
 if test "$#" -gt 24; then
