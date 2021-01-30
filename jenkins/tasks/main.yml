@@ -1,0 +1,10 @@
+---
+- name: copy .cred file
+  copy:
+    src: .cred
+    dest: /home/"{{ item }}"/.cred
+  with_items:
+     - Jim
+     - Jack
+     - Jose
+     - Jill
